@@ -6,13 +6,13 @@ const monsieurLaDoulaise = Monsieur_La_Doulaise({subsets: ['latin'], weight: ["4
 
 export default function Header() {
     return (
-        <header className={`absolute top-0 left-0 right-0 ${montserrat.className}`}>
+        <header className={`fixed backdrop-blur-sm z-50 top-0 left-0 right-0 ${montserrat.className}`}>
             <div className={"container flex justify-between items-center py-5"}>
                 <div className={`logo ${monsieurLaDoulaise.className} text-5xl`}>
                     <span>Beauty Nation Od</span>
                 </div>
                 <div className={"flex items-center text-white"}>
-                    <nav className={" "}>
+                    <nav className={"drop-shadow "}>
                         <Link href="/#home" className={"mr-[50px]"}>Home</Link>
                         <Link href="/#about" className={"mr-[50px]"}>About</Link>
                         <Link href="/#products" className={"mr-[50px]"}>Products</Link>
