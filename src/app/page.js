@@ -4,6 +4,7 @@ import Book from "@/components/sections/Book";
 import Service from "@/components/sections/Service";
 import About from "@/components/sections/About";
 import Price from "@/components/sections/Price";
+import Works from "@/components/sections/Works";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Service/>
       <About/>
       <Price/>
+      <Works/>
     </main>
   )
 }
