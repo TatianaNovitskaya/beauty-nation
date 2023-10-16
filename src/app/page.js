@@ -2,6 +2,7 @@
 import MainSection from "@/components/sections/MainSection";
 import Book from "@/components/sections/Book";
 import Service from "@/components/sections/Service";
+import About from "@/components/sections/About";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <MainSection/>
       <Book/>
       <Service/>
+      <About/>
     </main>
   )
 }
