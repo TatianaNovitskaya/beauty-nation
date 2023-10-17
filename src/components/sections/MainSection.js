@@ -5,7 +5,7 @@ const parisienne = Parisienne({ subsets: ['latin'], weight: ["400"] })
 
 export default function MainSection(){
     return(
-        <section>
+        <section id={"home"}>
             <div className={"container flex flex-col lg:flex-row h-full relative -mt-[5rem] lg:mt-0"}>
                 <Image src={"/work-23.jpg"} alt={"work-23"} className={"hidden lg:block absolute z-20 rounded-tl-[10rem] drop-shadow-2xl left-[25%] top-[50%] translate-x-1/2 rounded-tr-[10rem]"} width={310} height={838}/>
                 <div className={"w-full py-[2.25rem]  lg:w-1/2 lg:pt-[6.25rem] lg:pb-[8.25rem]"}>

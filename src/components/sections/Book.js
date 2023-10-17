@@ -2,7 +2,7 @@ import {Inter, Montserrat} from 'next/font/google'
 import Image from "next/image";
 
 const inter = Inter({subsets: ['latin'], weight: ["400", "700"]})
-const montserrat = Inter({subsets: ['latin']})
+const montserrat = Montserrat({subsets: ['latin'], weight: ["400", "600"]})
 
 export default function Book() {
     return (

@@ -15,17 +15,14 @@ export default function HeaderDesktop() {
                     <div className={"flex items-center text-white"}>
                         <nav className={""}>
                             <Link href="/#home"
-                                  className={"mr-[50px] drop-shadow-[1px_1px_1px_rgba(0,0,0,0.7)]"}>Home</Link>
+                                  className={"hover:underline hover:underline-offset-4 transition-all mr-[50px] drop-shadow-[1px_1px_1px_rgba(0,0,0,0.7)]"}>Home</Link>
                             <Link href="/#about"
-                                  className={"mr-[50px] drop-shadow-[1px_1px_1px_rgba(0,0,0,0.7)]"}>About</Link>
+                                  className={"hover:underline hover:underline-offset-4 transition-all mr-[50px] drop-shadow-[1px_1px_1px_rgba(0,0,0,0.7)]"}>About</Link>
                             <Link href="/#price"
-                                  className={"mr-[50px] drop-shadow-[1px_1px_1px_rgba(0,0,0,0.7)]"}>Price</Link>
+                                  className={"hover:underline hover:underline-offset-4 transition-all mr-[50px] drop-shadow-[1px_1px_1px_rgba(0,0,0,0.7)]"}>Price</Link>
                             <Link href="/#contact"
-                                  className={"mr-[50px] drop-shadow-[1px_1px_1px_rgba(0,0,0,0.7)]"}>Contact</Link>
+                                  className={"hover:underline hover:underline-offset-4 transition-all mr-[50px] drop-shadow-[1px_1px_1px_rgba(0,0,0,0.7)]"}>Contact</Link>
                         </nav>
-                        <button
-                            className={"border drop-shadow-[1px_1px_1px_rgba(0,0,0,0.7)] border-white rounded-[2rem] uppercase px-[2.3rem] py-4"}>Book
-                        </button>
                     </div>
                 </div>
             </header>

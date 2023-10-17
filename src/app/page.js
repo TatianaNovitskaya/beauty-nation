@@ -9,7 +9,7 @@ import Contact from "@/components/sections/Contact";
 
 export default function Home() {
   return (
-    <main className={"bg-orange-50"}>
+    <main className={"bg-orange-50 overflow-hidden"}>
       <MainSection/>
       <Book/>
       <Service/>
