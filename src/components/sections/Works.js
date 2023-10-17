@@ -20,7 +20,7 @@ export default function Works() {
                 <Image src={"/work-22.jpg"} alt={"work-22"} width={384} height={409} className={"hidden md:block w-[33%] md:w-[20%]"}/>
                 <Link href={"https://www.instagram.com/beauty_nation_od/"} className={"hover:scale-105 transition-transform absolute bg-[#FCF8EF] py-3 px-6 md:py-10 md:px-20 shadow-1 flex flex-col justify-center items-center left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 "}>
                     <Image src={"/instagram.svg"} alt={"instagram"} width={48} height={48} className={"w-[20px] h-[20px] md:w-[48px] md:h-[48px]"}/>
-                    <p className={"uppercase text-[#D8B192] text-[1rem] md:text-[2.5rem] font-semibold"}>follow me</p>
+                    <p className={"uppercase text-[#D8B192] text-[1rem] md:text-[1.75rem] lg:text-[2.5rem] font-semibold"}>follow me</p>
                 </Link>
             </div>
         </section>

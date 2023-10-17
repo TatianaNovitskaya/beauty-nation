@@ -11,7 +11,7 @@ export default function About() {
                 <div className={"w-[80%] md:w-1/2 relative"}>
                     <Image src={"/work-6.jpg"} alt={"work-6"} width={563} height={704} className={"relative z-10"}/>
                     <Image src={"/decor-2.png"} alt={"decor-2"} width={463} height={504} className={"hidden md:block absolute left-0 -bottom-[8rem] rotate-90"}/>
-                    <Image src={"/work-1.jpg"} alt={"work-23"} className={"hidden md:block absolute z-20 rounded-tl-[10rem] drop-shadow-2xl left-[25%] top-[50%] translate-x-1/2 rounded-tr-[10rem]"} width={310} height={838}/>
+                    <Image src={"/work-1.jpg"} alt={"work-23"} className={"hidden md:block absolute z-20 rounded-tl-[10rem] drop-shadow-2xl xl:left-[25%] md:-left-[25%] md:top-[125%] lg:top-[50%] lg:left-[10%] top-[50%] translate-x-1/2 rounded-tr-[10rem]"} width={310} height={838}/>
                 </div>
                 <div className={"w-full md:w-1/2"}>
                     <article>

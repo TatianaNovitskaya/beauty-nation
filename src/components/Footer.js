@@ -13,7 +13,7 @@ export default function Footer() {
                     <div className={`logo ${monsieurLaDoulaise.className} text-center md:text-left text-5xl`}>
                         <span>Beauty Nation Od</span>
                     </div>
-                    <div className={"hidden md:block"}>
+                    <div className={"hidden lg:block"}>
                         <nav className={"flex flex-col "}>
                             <p className={"font-semibold mb-4"}>Menu</p>
                             <Link href="/#home" className={"mb-[10px] hover:underline hover:underline-offset-4 transition-all leading-none"}>Home</Link>
