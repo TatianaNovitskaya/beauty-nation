@@ -46,10 +46,10 @@ export default function HeaderMobile() {
                                     </svg>
                                 </div>
                                 <ul className={"flex flex-col items-center justify-between"}>
-                                        <Link href="/#home" className={"text-3xl my-3"} onClick={toggleMenu}>Home</Link>
-                                        <Link href="/#about" className={"text-3xl my-3"} onClick={toggleMenu}>About</Link>
-                                        <Link href="/#price" className={"text-3xl my-3"} onClick={toggleMenu}>Price</Link>
-                                        <Link href="/#contact" className={"text-3xl my-3"} onClick={toggleMenu}>Contact</Link>
+                                        <Link href="/#home" className={"text-2xl my-3"} onClick={toggleMenu}>Home</Link>
+                                        <Link href="/#about" className={"text-2xl my-3"} onClick={toggleMenu}>About</Link>
+                                        <Link href="/#price" className={"text-2xl my-3"} onClick={toggleMenu}>Price</Link>
+                                        <Link href="/#contact" className={"text-2xl my-3"} onClick={toggleMenu}>Contact</Link>
                                 </ul>
                             </div>
                         </section>
