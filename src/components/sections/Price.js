@@ -6,9 +6,9 @@ const parisienne = Parisienne({subsets: ['latin'], weight: ["400"]})
 
 export default function Price() {
     return (
-        <section className={"py-[4rem]"}>
-            <div className={`${montserrat.className} flex text-[#767676] container h-full relative grid-cols-2 gap-[3rem]`}>
-                <div className={"w-1/2"}>
+        <section className={"py-[4rem]"} id={"price"}>
+            <div className={`${montserrat.className} flex flex-col-reverse items-center md:items-start md:flex-row-reverse text-[#767676] container h-full relative grid-cols-2 gap-[3rem]`}>
+                <div className={"w-full md:w-1/2"}>
                     <article>
                         <h2 className={`${parisienne.className} text-center text-[3.5rem] text-[#D8B192] mb-1.5rem`}>Treatments & Prices</h2>
                         <div className={`flex justify-between grid-cols-2 gap-5 mb-[1.5rem]`}>
@@ -86,10 +86,10 @@ export default function Price() {
                         <p className={"italic "}>Note: Prices may vary based on nail length, additional services, and design complexity. Please contact us for a personalized quote.</p>
                     </article>
                 </div>
-                <div className={"w-1/2 relative"}>
+                <div className={"w-[80%] md:w-1/2 relative"}>
                     <Image src={"/work-5.jpg"} alt={"work-5"} width={563} height={704} className={"relative z-10"}/>
-                    <Image src={"/decor-2.png"} alt={"decor-2"} width={463} height={504} className={"absolute left-0 -bottom-[7rem] rotate-180"}/>
-                    <Image src={"/work-21.jpg"} alt={"work-21"} className={"absolute z-20 rounded-tl-[10rem] drop-shadow-2xl left-[25%] top-[50%] translate-x-1/2 rounded-tr-[10rem]"} width={310} height={838}/>
+                    <Image src={"/decor-2.png"} alt={"decor-2"} width={463} height={504} className={"hidden ma:block absolute left-0 -bottom-[7rem] rotate-180"}/>
+                    <Image src={"/work-21.jpg"} alt={"work-21"} className={"hidden ma:block absolute z-20 rounded-tl-[10rem] drop-shadow-2xl left-[25%] top-[50%] translate-x-1/2 rounded-tr-[10rem]"} width={310} height={838}/>
                 </div>
             </div>
         </section>
