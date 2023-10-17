@@ -18,8 +18,8 @@ export default function HeaderDesktop() {
                                   className={"mr-[50px] drop-shadow-[1px_1px_1px_rgba(0,0,0,0.7)]"}>Home</Link>
                             <Link href="/#about"
                                   className={"mr-[50px] drop-shadow-[1px_1px_1px_rgba(0,0,0,0.7)]"}>About</Link>
-                            <Link href="/#products"
-                                  className={"mr-[50px] drop-shadow-[1px_1px_1px_rgba(0,0,0,0.7)]"}>Products</Link>
+                            <Link href="/#price"
+                                  className={"mr-[50px] drop-shadow-[1px_1px_1px_rgba(0,0,0,0.7)]"}>Price</Link>
                             <Link href="/#contact"
                                   className={"mr-[50px] drop-shadow-[1px_1px_1px_rgba(0,0,0,0.7)]"}>Contact</Link>
                         </nav>

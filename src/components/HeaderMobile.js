@@ -48,8 +48,8 @@ export default function HeaderMobile() {
                                 <ul className={"flex flex-col items-center justify-between"}>
                                         <Link href="/#home" className={"text-3xl my-3"} onClick={toggleMenu}>Home</Link>
                                         <Link href="/#about" className={"text-3xl my-3"} onClick={toggleMenu}>About</Link>
-                                        <Link href="/#projects" className={"text-3xl my-3"} onClick={toggleMenu}>Products</Link>
-                                        <Link href="/#services" className={"text-3xl my-3"} onClick={toggleMenu}>Contact</Link>
+                                        <Link href="/#price" className={"text-3xl my-3"} onClick={toggleMenu}>Price</Link>
+                                        <Link href="/#contact" className={"text-3xl my-3"} onClick={toggleMenu}>Contact</Link>
                                 </ul>
                             </div>
                         </section>
