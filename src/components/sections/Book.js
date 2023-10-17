@@ -15,7 +15,7 @@ export default function Book() {
                                    className={"mr-[0.5rem]"}/>
                             <span className={"uppercase text-[#D8B192] "}>date*</span>
                         </label>
-                        <input type="date" required={true} id={"date"} min="2023-01-01" max="2023-12-31"
+                        <input type="date" value="2023-01-01" required={true} id={"date"} min="2023-01-01" max="2023-12-31"
                                className={"bg-inherit w-full  mt-4 focus:outline-none placeholder:text-[#767676] border-b border-[#767676]"}/>
                     </div>
                     <div className={"flex flex-row items-center mb-2.5 md:mb-0 md:flex-col"}>

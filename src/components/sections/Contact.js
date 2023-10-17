@@ -8,7 +8,7 @@ const parisienne = Parisienne({subsets: ['latin'], weight: ["400"]})
 export default function Contact() {
     return (
         <section className={"py-[2rem] md:py-[4.25rem]"} id={"contact"}>
-            <div className={`${montserrat.className} container flex  items-center flex-col-reverse md:flex-row-reverse w-full h-full relative  grid-cols-2 gap-[3rem] `}>
+            <div className={`${montserrat.className} container flex  items-center flex-col-reverse md:flex-row w-full h-full relative  grid-cols-2 gap-[3rem] `}>
                 <div className={"w-full md:w-1/2 relative flex justify-center items-center"}>
                     <Image src={"/decor-3.png"} alt={"decor-3"} width={616} height={611} className={"hidden md:block pointer-events-none absolute -top-[5rem] -right-[15rem]"}/>
                     <Image src={"/decor-1.png"} alt={"decor-1"} width={616} height={611} className={"hidden md:block pointer-events-none absolute -bottom-[1rem] left-[17rem]"}/>
