@@ -32,7 +32,7 @@ export default function Price() {
                         <div className={`flex justify-between grid-cols-2 gap-5 mb-[1.5rem]`}>
                             <div className={"w-[75%]"}>
                                 <p className={"font-semibold text-[1.25rem]"}>Gel Manicure</p>
-                                <span>We'll shape your nails, care for your cuticles, and apply a high-quality gel polish of your choice.</span>
+                                <span>I`&apos;`ll shape your nails, care for your cuticles, and apply a high-quality gel polish of your choice.</span>
                             </div>
                             <div className="">
                                 <p className={"font-semibold text-[1.25rem]"}>$40</p>
@@ -41,7 +41,7 @@ export default function Price() {
                         <div className={`flex justify-between grid-cols-2 gap-5 mb-[1.5rem]`}>
                             <div className={"w-[75%]"}>
                                 <p className={"font-semibold text-[1.25rem]"}>Acrylic Nail Extensions</p>
-                                <span>Transform your nails with acrylic extensions. </span>
+                                <span>Transform your nails with acrylic extensions.</span>
                             </div>
                             <div className="">
                                 <p className={"font-semibold text-[1.25rem]"}>$50</p>
@@ -50,7 +50,7 @@ export default function Price() {
                         <div className={`flex justify-between grid-cols-2 gap-5 mb-[1.5rem]`}>
                             <div className={"w-[75%]"}>
                                 <p className={"font-semibold text-[1.25rem]"}>Nail Art</p>
-                                <span>Transform your nails with acrylic extensions. </span>
+                                <span>Express your unique style with our nail art options.</span>
                             </div>
                             <div className="">
                                 <p className={"font-semibold text-[1.25rem]"}>from $5</p>
