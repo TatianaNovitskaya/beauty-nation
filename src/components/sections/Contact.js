@@ -10,7 +10,7 @@ export default function Contact() {
         <section className={"py-[4.25rem]"} id={"contact"}>
             <div className={`${montserrat.className} container flex items-center w-full h-full relative  grid-cols-2 gap-[3rem] `}>
                 <div className={"w-1/2 relative flex justify-center items-center"}>
-                    <Image src={"/decor-3.png"} alt={"decor-3"} width={616} height={611} className={"absolute -top-[5rem] -right-[15rem]"}/>
+                    <Image src={"/decor-3.png"} alt={"decor-3"} width={616} height={611} className={"pointer-events-none absolute -top-[5rem] -right-[15rem]"}/>
                     <Image src={"/decor-1.png"} alt={"decor-1"} width={616} height={611} className={"pointer-events-none absolute -bottom-[1rem] left-[17rem]"}/>
                     <Image src={"/work-17.jpg"} alt={"work-17"} width={500} height={250} className={"rounded-tl-[10rem] z-10 rounded-bl-[10rem]"} style={{objectFit: 'cover'}}/>
 
