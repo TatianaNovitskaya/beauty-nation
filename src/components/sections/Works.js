@@ -6,7 +6,7 @@ const montserrat = Montserrat({subsets: ['latin'], weight: ["400", "600"]})
 
 export default function Works() {
     return (
-        <section className={""}>
+        <section className={"overflow-hidden xl:py-[2rem]"}>
             <div className={`${montserrat.className} flex w-full h-full relative flex-wrap justify-center grid-cols-3 md:grid-cols-5 gap-[0rem] `}>
                 <Image src={"/work-2.jpg"} alt={"work-2"} width={384} height={409} className={"w-[33%] md:w-[20%] hover:scale-110 transition-transform"}/>
                 <Image src={"/work-3.jpg"} alt={"work-3"} width={384} height={409} className={"w-[33%] md:w-[20%] hover:scale-110 transition-transform"}/>
