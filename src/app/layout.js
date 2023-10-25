@@ -1,6 +1,6 @@
 import './globals.css'
 import { Inter, Montserrat } from 'next/font/google'
-import HeaderDesktop from "@/components/HeaderDesktop";
+import HeaderDesktopOld from "@/components/HeaderDesktopOld";
 import Footer from "@/components/Footer";
 import HeaderRoot from "@/components/HeaderRoot";
 
@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={"scroll-smooth md:scroll-pt-[2.5rem]"}>
       <body className={inter.className}>
       <HeaderRoot/>
       {children}
